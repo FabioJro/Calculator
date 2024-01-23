@@ -75,13 +75,27 @@ h2 {
     margin: 1rem auto;
     padding: 2rem 1rem;
     background-color: azure;
+    border-radius: 10px;
     color: #333;
 }
 
-#multiplication-operations .row{
+#multiplication-operations .row {
     display: flex;
     justify-content: center;
-    border: 3px inset #333; 
-    }
+    border: 3px inset #333;
+    border-bottom: nonw;
 
+    padding: .5rem;
+    width: 150px;
 
+}
+
+#multiplication-operations .row:last-child {
+
+    border: 3px inset rgb(255, 255, 255);
+
+}
+
+#multiplication-operations .result {
+    margin-left: .4rem;
+}
